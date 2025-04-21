@@ -1,0 +1,81 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .container {
+    width: 500px;
+    min-height: 20vh;
+    background-color: hsl(188, 40%, 89%);
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgb(129, 108, 111);
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  #addTaskBtn {
+    border: none;
+    padding: 12px;
+    background-color: rgb(85, 172, 172);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #taskList li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #taskList button {
+    background: crimson;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
